@@ -1,94 +1,108 @@
-# Alfido Tech - Data Analytics Internship
+Alfido Tech – Data Analytics Internship
 
-Work submitted by Kishu Agarwal for the Data Analytics Internship at Alfido Tech. Each task has its own folder with the notebook, report and a short README.
+Welcome to my Data Analytics Internship Project Repository! This repository showcases my practical work in data analysis, exploratory data analysis (EDA), data visualization, and business insights as part of my internship at Alfido Tech.
 
-## Tasks
-| Task | Topic | Folder |
-|------|-------|--------|
-| Task 1 | Customer Behaviour Analysis | [Task1_Customer_Behaviour_Analysis](Task1_Customer_Behaviour_Analysis) |
-| Task 2 | Superstore Sales Performance Analysis | [Task2_Superstore_Sales_Performance_Analysis](Task2_Superstore_Sales_Performance_Analysis) |
-| Task 3 | Website Traffic & User Engagement Analysis | [Task3_Website_Traffic_Analysis](Task3_Website_Traffic_Analysis) |
+The projects focus on understanding customer behavior, evaluating sales performance, and analyzing website traffic using Python and its data analytics libraries.
 
-## Tools
-Python, Pandas, NumPy, Matplotlib, Seaborn
+Projects Overview
 
-# Alfido Tech - Task 1: Customer Behaviour Analysis
+Task 1: Customer Behavior Analysis
 
-Data Analytics Internship project at Alfido Tech, submitted by Kishu Agarwal.
+Objective: Understand customer purchasing patterns, customer segments, retention trends, and product return behavior.
 
-## About the project
-Analysis of e-commerce customer transactions (250,000 transactions, 49,673 unique customers, Jan 2020 - Sep 2023) to understand buying behaviour, segment customers and look at retention.
+Key Activities
 
-## What I did
-- Data cleaning and quality checks
-- EDA across product categories, payment methods, age groups and gender
-- RFM customer segmentation
-- Cohort retention analysis
-- Looked at the churn and returns indicators given in the dataset
-- Business recommendations
+* Data cleaning and preprocessing
+* Exploratory Data Analysis (EDA)
+* Customer segmentation using RFM analysis
+* Customer cohort analysis
+* Churn indicator and product return analysis
+* Business insights and recommendations
 
-## Key findings
-- Around 40% of customers fall in the At Risk and Hibernating RFM segments
-- 96.61% of customers made more than one purchase
-- The dataset's churn indicator marks 20.01% of customers as churned
+Key Insight: Approximately 40% of customers belonged to the At Risk and Hibernating segments, highlighting opportunities for customer re-engagement.
 
-Full details are in the report (PDF).
+Tools: Python, Pandas, NumPy, Matplotlib, Seaborn
 
-## Files
-- `Alfido_Task1_Customer_Behaviour_Analysis.ipynb` - notebook with code, analysis and visualizations
-- `Alfido_Task1_Report.pdf` - report with executive summary and insights
+Task 2: Sales Performance Analysis
 
-## Tools
-Python, Pandas, NumPy, Matplotlib, Seaborn
+Objective: Evaluate sales performance across product categories, regions, customer segments, and shipping methods using the Superstore dataset.
 
-## How to run
-The notebook was made in Google Colab and asks for the dataset CSV through a file upload prompt. Open it in Colab, run the cells and upload the CSV when asked. The dataset is not included in this repo.
+Key Activities
 
-# Alfido Tech - Task 2: Superstore Sales Performance Analysis
+* Data cleaning and statistical analysis
+* Category-wise and regional sales analysis
+* Monthly and yearly sales trends
+* Top-performing product analysis
+* Customer sales contribution analysis
+* Shipping duration analysis
+* KPI evaluation and business recommendations
 
-Data Analytics Internship project at Alfido Tech, submitted by Kishu Agarwal.
+Key Insight: Technology was the highest-performing product category, while the West region contributed approximately 31.40% of total sales.
 
-## About the project
-Analysis of the Superstore Sales dataset (Kaggle): 9,800 transaction records, 4,922 unique orders and 793 unique customers, to understand sales across categories, regions, customer segments and shipping modes.
+Tools: Python, Pandas, NumPy, Matplotlib, Seaborn
 
-## Key findings
-- Total sales of 2,261,536.78 with an average order value of 459.48
-- Technology was the top category and the West region gave the largest share of sales (31.40%)
-- Phones was the top sub-category by sales
-- Top 30 customers contributed 15.64% of total sales
-- Average shipping duration was 3.96 days; Standard Class was the slowest at 5.01 days
+Note: The analysis uses a public Superstore dataset and does not represent actual Alfido Tech sales.
 
-## Files
-- `Alfido_Task2_Sales_Performance_Analysis.ipynb` - notebook with code, analysis and visualizations
-- `Alfido_Task2_Report.docx` - project report
+Task 3: Website Traffic Analysis
 
-## Tools
-Python, Pandas, NumPy, Matplotlib, Seaborn
+Objective: Analyze website event activity to identify engagement patterns, high-activity locations, and popular content.
 
-## How to run
-Made in Google Colab. Open the notebook in Colab, run the cells and upload the dataset CSV when asked. The dataset is not included in this repo.
+Key Activities
 
+* Data cleaning and preprocessing
+* Pageview, click, and preview analysis
+* Daily traffic trend analysis
+* Country and city performance analysis
+* Artist, album, track, and link analysis
+* Business insights and recommendations
 
-# Alfido Tech - Task 3: Website Traffic & User Engagement Analysis
+Key Insight: Pageviews accounted for approximately 62.76% of recorded events, while Saudi Arabia and India were among the leading countries by event volume.
 
-Data Analytics Internship project at Alfido Tech, submitted by Kishu Agarwal.
+Tools: Python, Pandas, NumPy, Matplotlib, Seaborn
 
-## About the project
-Analysis of website traffic event data (Kaggle): 226,278 events from 19 to 25 August 2021, covering 211 countries and 11,993 cities, to understand engagement, geography, content performance and daily trends.
+Tools & Technologies
 
-## Key findings
-- Pageviews were 62.76% of events, clicks 24.63% and previews 12.61%
-- Saudi Arabia and India were the top countries; Jeddah and Riyadh the top cities
-- Tesher and the track Jalebi Baby led content activity (40,841 events each)
-- Thursday was the busiest day in the week observed
-- No user or session IDs, so all results are event counts, not unique visitors
+* Programming Language: Python
+* Data Manipulation: Pandas, NumPy
+* Data Visualization: Matplotlib, Seaborn
+* Development Environment: Google Colab / Jupyter Notebook
+* Documentation: PDF Project Reports
 
-## Files
-- `Alfido_Task3_Website_Traffic_Analysis.ipynb` - notebook with code, analysis and visualizations
-- `Alfido_Task3_Report.docx` - short project report
+Skills Developed
 
-## Tools
-Python, Pandas, NumPy, Matplotlib, Seaborn
+* Data cleaning and preprocessing
+* Exploratory Data Analysis (EDA)
+* Statistical analysis
+* Data visualization and interpretation
+* Customer behavior analysis
+* Sales and website traffic analysis
+* Business insight generation
+* Data-driven recommendations
 
-## How to run
-Made in Google Colab. Open the notebook in Colab, run the cells and upload `traffic.csv` when asked. The dataset is not included in this repo.
+Repository Structure
+
+Alfido-Tech-Data-Analytics-Internship/
+├── README.md
+├── Task-1-Customer-Behavior-Analysis/
+│   ├── Customer_Behavior_Analysis.ipynb
+│   └── Customer_Behavior_Analysis_Report.pdf
+├── Task-2-Sales-Performance-Analysis/
+│   ├── Sales_Performance_Analysis.ipynb
+│   └── Sales_Performance_Analysis_Report.pdf
+└── Task-3-Website-Traffic-Analysis/
+    ├── Website_Traffic_Analysis.ipynb
+    └── Website_Traffic_Analysis_Report.pdf
+
+The file names shown above are examples. The repository structure should match the actual uploaded file names.
+
+Project Outcomes
+
+Through these projects, I gained practical experience in working with structured datasets, identifying trends and patterns, creating visualizations, and converting analytical findings into meaningful business recommendations.
+
+These projects represent my learning journey in data analytics and my interest in using data to support informed business decisions.
+
+⸻
+
+Internship Organization: Alfido Tech
+Domain: Data Analytics
+Projects Completed: 3
