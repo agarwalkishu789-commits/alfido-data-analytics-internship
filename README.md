@@ -81,6 +81,7 @@ Task 2: Sales Performance Analysis
 
 ## Repository Structure
 
+```TEXT
 Alfido-Tech-Data-Analytics-Internship/
 ├── README.md
 ├── Task-1-Customer-Behavior-Analysis/
@@ -92,6 +93,7 @@ Alfido-Tech-Data-Analytics-Internship/
 └── Task-3-Website-Traffic-Analysis/
     ├── Website_Traffic_Analysis.ipynb
     └── Website_Traffic_Analysis_Report.pdf
+```
 
 The file names shown above are examples. The repository structure should match the actual uploaded file names.
 
