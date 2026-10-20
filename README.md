@@ -106,5 +106,7 @@ These projects represent my learning journey in data analytics and my interest i
 ⸻
 
 **Internship Organization:** Alfido Tech
-**Domain:** Data Analytics
+
+**Domain:** Data Analytic
+
 **Projects Completed:** 3
