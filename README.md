@@ -1,6 +1,6 @@
-#Alfido Tech – Data Analytics Internship
+# Alfido Tech – Data Analytics Internship
 
-Welcome to my Data Analytics Internship Project Repository! This repository showcases my practical work in data analysis, exploratory data analysis (EDA), data visualization, and business insights as part of my internship at Alfido Tech.
+Welcome to my Data Analytics Internship Project Repository! This repository showcases my practical work in data analysis, exploratory data analysis (EDA), data visualization, and business insights as part of my internship at **Alfido Tech**.
 
 The projects focus on understanding customer behavior, evaluating sales performance, and analyzing website traffic using Python and its data analytics libraries.
 
